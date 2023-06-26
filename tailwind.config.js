@@ -27,7 +27,9 @@ module.exports = {
         'logo-profile': "url('/src/assets/header/profile.svg')",
         'main-paper': "url('/src/assets/main/paper.png')",
         'fallen': "url('/src/assets/main/t-shirt.png')",
-        'heart': "url('/src/assets/catal/heart.svg')"
+        'heart': "url('/src/assets/catal/heart.svg')",
+        'Pheart': "url('/src/assets/catal/Pheart.svg')",
+
       },
       margin: {
         'main-top': '10.25rem',
@@ -36,6 +38,7 @@ module.exports = {
       },
       boxShadow: {
         'card': '0px 0px 7px rgba(0, 0, 0, 0.25)',
+        'pink': '0px 0px 7px 0px #F38F8F',
       },
       colors: {
         'main-pink': '#F38F8F',

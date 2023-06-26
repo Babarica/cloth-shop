@@ -1,14 +1,14 @@
 <template>
-  <div class="relative after:absolute before:absolute after:content-circle before:content-bcircle after:left-0 before:right-0 after:-top-40 before:-bottom-80">
+  <div class="relative after:absolute before:absolute after:content-circle before:content-bcircle after:left-0 before:right-0 after:-top-40 before:-bottom-80 max-xl:after:hidden max-xl:before:hidden">
     <u-container>
-      <div class="mt-col-top flex relative">
-        <div>
+      <div class="mt-col-top flex relative max-lg:flex-col max-lg:justify-center max-lg:mt-12">
+        <div class="max-lg:flex-col max-lg:justify-center max-lg:flex max-lg:items-center">
           <p class="font-rubik font-semibold text-xs text-main-pink mb-8">Последняя коллекция</p>
-          <p class="font-rubik font-extrabold text-mega leading-none mb-32">Весна —</p>
+          <p class="font-rubik font-extrabold text-mega leading-none mb-32 max-lg:hidden">Весна —</p>
           <div v-motion-slide-visible-once-bottom class="relative after:content-boy before:content-boy-sd after:absolute before:absolute before:-top-24 after:-top-20">
             <img :src="img" alt="" />
           </div>
-          <p class="max-w-col-text mt-16 mb-16 text-main-gray font-fira text-xs leading-lite">
+          <p class="max-w-col-text mt-16 mb-16 text-main-gray font-fira text-xs leading-lite max-lg:max-w-none">
             В этой коллекции мы использовали только самые актуальные тренды сезона, чтобы создать для
             вас неповторимый образ. Каждая вещь выполнена из высококачественных материалов.
           </p>
@@ -28,13 +28,13 @@
           ></u-btn>
         </div>
         <div  class="mt-16 ml-20">
-            <div class="flex">
+            <div class="flex max-lg:items-center">
                 <div v-motion-slide-visible-once-left class="relative after:absolute before:absolute after:content-handsome after:-top-8 before:content-handsome-sd before:-top-8 before:left-6 before:z-10">
                     <img v-motion-slide-visible-once-left :src="imgB" alt="img">
                     <p class="absolute block -top-12 text-main-pink font-rubik font-extrabold text-ultra -left-14">Spring</p>
                     <span  class="after:absolute after:content-handsome after:left-12 after:-top-8 after:z-20"></span>
                 </div>
-                <div class="relative">
+                <div class="relative max-xl:hidden">
                     <p class="font-rubik text-ultra italic top-80 rotate-90 absolute z-10 font-extrabold">
                         2023
                     </p>

@@ -1,5 +1,5 @@
 <template>
-    <a @click="()=>scrollToTop()" :class="{'visible': top}" class="fixed opacity-0 after:content-arrow-top after:absolute after:top-32 after:w-4 after:left-12 transition delay-300 ease-out cursor-pointer left-0 z-20 w-40 top-0 h-full hover:bg-top-pink "></a>
+    <a @click="()=>scrollToTop()" :class="{'visible': top}" class="fixed opacity-0 after:content-arrow-top after:absolute max-lg:hidden after:top-32 after:w-4 after:left-12 transition delay-300 ease-out cursor-pointer left-0 z-20 w-40 top-0 h-full hover:bg-top-pink "></a>
 
 </template>
 <script setup>

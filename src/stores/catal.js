@@ -24,8 +24,8 @@ export const useCatal = defineStore('catal',()=> {{
           {category: 'Футболка',link: new URL('@/assets/main/t-shirt.png', import.meta.url).href, name: 'Футболка Bravo', data: '20.06.2023', color: 'pink', size: 'S', compound: 'Хлопок', collection: 'Spring', cost: 4900, article: 16},
         ]
       ])
-    const productStore = computed(() => products.value)
-    const page = ref(0)
-
+      const page = ref(0)
+      const productStore = computed(() => products.value)
+      
   return { products, productStore, page }
 }})
